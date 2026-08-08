@@ -7,6 +7,8 @@
   <meta name="description" content="Earnly — discover flexible ways to earn, track rewards, and grow your income.">
   <title>Earnly — Turn Your Time Into Income</title>
 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6583411181756440" crossorigin="anonymous"></script>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
@@ -62,6 +64,8 @@
     .float-one { right:-34px;top:8%; }.float-two{left:-45px;bottom:7%;animation-delay:-2s;}
     @keyframes float { 50%{transform:translateY(-9px)} }
     .trusted { border-top:1px solid rgba(255,255,255,.07);border-bottom:1px solid rgba(255,255,255,.07);padding:23px 0;color:#5f6a7d; }
+    .ad-zone { width:100%;max-width:1100px;min-height:90px;margin:0 auto;padding:16px;border-radius:18px;overflow:hidden;background:rgba(255,255,255,.018);border:1px solid rgba(255,255,255,.055); }
+    .ad-label { display:block;margin-bottom:8px;color:#4f596b;font-size:.62rem;font-weight:700;letter-spacing:.12em;text-align:center;text-transform:uppercase; }
     .logo-word { font-weight:800;letter-spacing:-.04em;color:#697386;font-size:1.12rem; }
     .section-pad { padding:110px 0; }
     .section-label { color:var(--lime);font-size:.77rem;text-transform:uppercase;letter-spacing:.13em;font-weight:800; }
@@ -141,6 +145,10 @@
 
     <div class="trusted"><div class="container"><div class="d-flex flex-wrap justify-content-center justify-content-lg-between align-items-center gap-4"><span class="small text-uppercase fw-bold" style="letter-spacing:.1em">Trusted opportunities from</span><span class="logo-word"><i class="bi bi-triangle-fill me-1"></i> Vertex</span><span class="logo-word"><i class="bi bi-command me-1"></i> Northstar</span><span class="logo-word"><i class="bi bi-hexagon-fill me-1"></i> LOOMLY</span><span class="logo-word"><i class="bi bi-circle-square me-1"></i> orbit</span><span class="logo-word"><i class="bi bi-snow me-1"></i> Arctic</span></div></div></div>
 
+    <div class="container py-4" aria-label="Advertisement">
+      <div class="ad-zone"><span class="ad-label">Advertisement</span><ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-6583411181756440" data-ad-slot="6644222943"></ins></div>
+    </div>
+
     <section class="section-pad" id="opportunities">
       <div class="container">
         <div class="row align-items-end mb-5 g-3"><div class="col-lg-8"><div class="section-label mb-3">Opportunity marketplace</div><h2 class="section-title mb-0">Earn your way.<br><span class="text-secondary">On your schedule.</span></h2></div><div class="col-lg-4"><p class="text-secondary mb-0 lh-lg">Explore vetted opportunities designed around your skills, interests, and availability.</p></div></div>
@@ -151,6 +159,10 @@
         </div>
       </div>
     </section>
+
+    <div class="container pb-5" aria-label="Advertisement">
+      <div class="ad-zone"><span class="ad-label">Advertisement</span><ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6583411181756440" data-ad-slot="2581954935"></ins></div>
+    </div>
 
     <section class="section-pad pt-2" id="how">
       <div class="container"><div class="feature-panel glass"><div class="row g-0 align-items-stretch">
@@ -172,6 +184,10 @@
 
     <section class="section-pad" id="security"><div class="container"><div class="cta text-center"><div class="position-relative"><span class="eyebrow"><i class="bi bi-shield-check"></i> Secure by design</span><h2 class="section-title mt-4 mx-auto" style="max-width:850px">More control over your time. More confidence in your income.</h2><p class="text-secondary mx-auto mt-4 lh-lg" style="max-width:620px">No hidden fees. No confusing fine print. Just verified opportunities, transparent rates, and secure payouts.</p><button class="btn btn-lime mt-3 px-4 py-3">Create your free account <i class="bi bi-arrow-right ms-2"></i></button><div class="small text-secondary mt-3"><i class="bi bi-check2 me-1 text-success"></i>No credit card required</div></div></div></div></section>
 
+    <div class="container pb-5" aria-label="Advertisement">
+      <div class="ad-zone"><span class="ad-label">Advertisement</span><ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w" data-ad-client="ca-pub-6583411181756440" data-ad-slot="1001279959"></ins></div>
+    </div>
+
     <section class="section-pad pt-0" id="faq"><div class="container"><div class="row g-5"><div class="col-lg-5"><div class="section-label mb-3">Questions, answered</div><h2 class="section-title fs-1">Everything you need to know.</h2><p class="text-secondary mt-3">Still curious? Our support team is one message away.</p></div><div class="col-lg-7">
       <div class="faq-item open"><button class="faq-button">Is Earnly free to join?<i class="bi bi-plus-lg"></i></button><div class="faq-answer">Yes. Creating a profile and exploring opportunities is completely free. Any platform fee is clearly shown before you accept work.</div></div>
       <div class="faq-item"><button class="faq-button">How are opportunities verified?<i class="bi bi-plus-lg"></i></button><div class="faq-answer">We review clients, payment history, opportunity details, and community feedback before listings go live.</div></div>
@@ -184,6 +200,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
+    document.querySelectorAll('.adsbygoogle').forEach(() => {
+      try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (error) { console.debug('AdSense is not available yet.', error); }
+    });
     document.querySelectorAll('.faq-button').forEach(button => button.addEventListener('click', () => {
       const item = button.parentElement;
       document.querySelectorAll('.faq-item').forEach(other => { if (other !== item) other.classList.remove('open'); });
